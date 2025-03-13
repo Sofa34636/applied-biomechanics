@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500&family=Great+Vibes:wght@400&family=Montserrat+Alternates:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500&family=Great+Vibes:wght@400&family=Montserrat+Alternates:wght@400;500&display=swap');
+
+$title: #363838;
+$default: #5a5a5a;
+
+%header-text {
+  // переменная
+  font-family: 'comfortaa', sans-serif;
+
+  font-weight: 500px;
+
+  color: #fff;
+}
+
+%top-text {
+  font-family: 'comfortaa', sans-serif;
+
+  font-weight: 400;
+
+  color: #fff;
+}
+
+%subtext-text {
+  font-family: 'comfortaa', sans-serif;
+
+  font-weight: 300;
+
+  color: #ffffff;
+}
+
+%top-title {
+  font-family: var(--font-great-vibes), sans-serif;
+  font-weight: 400;
+  font-size: 250px;
+  color: #fff;
+}
+
+%button-text {
+  font-family: 'Montserrat Alternates', sans-serif;
+
+  font-weight: 500;
+
+  color: #ffffff;
+}
+
+%section-text {
+  font-family: 'Montserrat Alternates', sans-serif;
+
+  font-weight: 400;
+
+  color: #fff;
+}
+
+%section-subsection {
+  font-family: 'Montserrat Alternates', sans-serif;
+
+  font-weight: 300;
+
+  color: #fff;
+}

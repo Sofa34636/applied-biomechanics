@@ -1,0 +1,475 @@
+@import 'vars';
+
+@import 'reset';
+
+@import 'global';
+
+.bloc {
+  &__title {
+    @extend %top-text;
+    font-size: 36px;
+    text-align: center;
+    padding: 150px 0 50px;
+  }
+  &__text {
+    @extend %header-text;
+    font-size: 24px;
+    letter-spacing: -0.05em;
+    text-align: center;
+  }
+  &__subtext {
+    @extend %top-text;
+    font-size: 20px;
+    line-height: 150%;
+    padding: 50px 0;
+  }
+  &__duote {
+    @extend %subtext-text;
+    font-size: 32px;
+    text-align: center;
+    max-width: 1266px;
+    padding: 40px;
+    margin: 0 auto;
+    color: #000;
+  }
+}
+.duote {
+  background-color: #fdfae7;
+}
+.top {
+  &__inner {
+    background-image: url(../images/top-bg.svg);
+    // background-size: contain; /* Фон будет уменьшаться вместе с экраном */
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 821px;
+    position: relative;
+    left: 0;
+    right: 0;
+    z-index: 1; /* Убедимся, что текст выше */
+  }
+  &__box {
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding-top: 150px;
+    z-index: 10;
+  }
+  &__title {
+    @extend %top-title;
+  }
+  &__text {
+    top: 30px;
+    @extend %top-text;
+    font-size: 32px;
+  }
+}
+
+.about {
+  &__inner {
+    display: flex;
+    align-items: center;
+
+    @extend %top-text;
+    font-size: 20px;
+    line-height: 150%;
+  }
+  &__bloc {
+  }
+  &__name {
+    @extend %header-text;
+    font-size: 32px;
+    margin-bottom: 17px;
+  }
+  &__text {
+    max-width: 715px;
+  }
+  &__text-item {
+    max-width: 715px;
+    margin: 50px 0 50px 167px;
+  }
+}
+
+.services {
+  &__inner {
+    @extend %button-text;
+    font-size: 24px;
+    line-height: 125%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    margin: 130px 0 100px 0;
+  }
+  &__petal {
+    max-width: 278px;
+  }
+  &__item {
+    display: flex;
+    flex-direction: column;
+    &-1 {
+      text-align: right;
+
+      padding-top: 130px;
+      gap: 128px;
+    }
+    &-2 {
+      text-align: center;
+      gap: 30px;
+    }
+    &-3 {
+      padding-top: 130px;
+      gap: 128px;
+    }
+  }
+}
+
+.priceList {
+  &__inner {
+    display: flex;
+    gap: 115px;
+    margin: 50px 0 100px 0;
+  }
+  &__bloc {
+    @extend %top-text;
+    max-width: 735px;
+  }
+  &__description {
+    font-size: 20px;
+    line-height: 150%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  &__money {
+    font-size: 32px;
+    line-height: 94%;
+    letter-spacing: 0.1em;
+    text-align: right;
+    padding: 50px 0;
+  }
+  &__subtext {
+    @extend %subtext-text;
+
+    font-size: 14px;
+    line-height: 214%;
+
+    padding-bottom: 90px;
+  }
+  &__button {
+    font-size: 24px;
+    @extend %button-text;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__button-green {
+    background-color: #acbd6f;
+    width: 320px;
+    height: 50px;
+    border-radius: 15px;
+  }
+  &__button-white {
+    border-color: #fdfae7;
+    width: 320px;
+    height: 50px;
+    border-radius: 15px;
+  }
+  &__images {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    align-items: start;
+  }
+  &__img {
+    padding-top: 200px;
+  }
+}
+
+.TechniquesSession {
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+  &__title {
+    @extend %top-text;
+    font-size: 64px;
+    text-align: center;
+  }
+}
+
+.get {
+  &__bloc {
+    background-image: url(../images/Massage-get.svg);
+    width: 100%;
+  }
+  &__title {
+    @extend %top-text;
+    font-size: 72px;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1160px;
+    padding: 290px 0 290px 0;
+  }
+  &__inner {
+    @extend %button-text;
+  }
+
+  &__item {
+    display: flex;
+    gap: 50px;
+    padding-top: 50px;
+  }
+  &__item-link {
+    display: flex;
+    justify-content: end;
+  }
+  &__text {
+    font-size: 24px;
+  }
+  &__subtext {
+    font-size: 20px;
+    padding-top: 20px;
+    max-width: 702px;
+  }
+}
+
+.workingMethods {
+  &__inner {
+  }
+  &__basic {
+    @extend %section-text;
+    font-size: 64px;
+  }
+  &__pyramid {
+    @extend %button-text;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin: 20px;
+  }
+  &__item {
+    background-color: #fdfae7;
+    border-radius: 50px;
+
+    padding: 10px;
+    color: #000;
+    text-align: center;
+  }
+  &__posture {
+    width: 500px;
+  }
+  &__mobility {
+    width: 600px;
+  }
+  &__habits {
+    width: 700px;
+  }
+  &__distribution {
+    width: 800px;
+  }
+  &__aspects {
+    @extend %section-text;
+    font-size: 64px;
+    text-align: right;
+  }
+}
+
+.therapy {
+  &__inner {
+    display: flex;
+    height: 417px;
+    gap: 30px;
+    margin-top: 50px;
+  }
+  &__bloc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  &__item {
+  }
+  &__right {
+    text-align: right;
+  }
+  &__center {
+    display: flex;
+    align-items: center;
+  }
+  &__title {
+    @extend %button-text;
+    font-size: 24px;
+  }
+  &__text {
+    @extend %section-text;
+    font-size: 20px;
+    padding-top: 20px;
+  }
+  &__img {
+  }
+}
+
+.biodynamic {
+  &__inner {
+    @extend %section-text;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  &__section {
+    max-width: 588px;
+    display: flex;
+    flex-direction: column;
+    gap: 165px;
+  }
+  &__bloc {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  &__title {
+    font-size: 20px;
+    margin-bottom: 33px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  &__text {
+    font-size: 16px;
+  }
+  &__images {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  &__img {
+  }
+}
+.swiper-slide {
+  opacity: 1 !important; /* Убеждаемся, что слайды не теряют прозрачность при перетаскивании */
+}
+.discount {
+  &__inner {
+    width: 100%;
+    overflow: hidden;
+  }
+  &__bloc {
+    border-radius: 30px;
+
+    padding-left: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-bottom: 30px;
+    &-white {
+      background-color: #fff;
+    }
+    &-green {
+      background-color: #acbd6f;
+    }
+  }
+  &__item {
+    width: 500px;
+  }
+  &__title {
+    @extend %button-text;
+    color: #000;
+    font-size: 24px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  &__text {
+    color: #000;
+    @extend %section-text;
+    font-size: 20px;
+    padding: 50px 0 17px 0;
+  }
+  &__subtext {
+    color: #000;
+    @extend %section-text;
+    font-size: 14px;
+  }
+  &__link {
+    display: flex;
+    justify-content: space-around;
+  }
+  &__time {
+    color: #000;
+    @extend %section-text;
+    font-size: 24px;
+  }
+  &__img {
+  }
+}
+
+.training {
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__bloc {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 30px;
+    max-width: 308px;
+  }
+  &__text {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 25px;
+    color: #000;
+
+    @extend %button-text;
+  }
+}
+
+.reviews {
+  &__inner {
+  }
+  &__bloc {
+    margin-bottom: 50px;
+  }
+  &__img {
+    width: 100%;
+  }
+
+  &__item {
+    background-color: #fdfae7;
+    box-shadow: 0 5px 5px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 30px 50px 50px 50px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+  &__link {
+    display: flex;
+    align-items: center;
+    gap: 30%;
+  }
+}
+
+.gallery {
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 150px;
+  }
+  &__img {
+  }
+  &__bloc {
+    display: flex;
+  }
+  &__bloc-column {
+    display: flex;
+    flex-direction: column;
+  }
+}

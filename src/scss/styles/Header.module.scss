@@ -1,0 +1,23 @@
+@import '../vars';
+.header {
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @extend %header-text;
+    margin-top: 22px;
+    font-size: 16px;
+  }
+  &__img {
+  }
+}
+.menu {
+  display: flex;
+  gap: 30px;
+  &__item {
+  }
+  &__link {
+  }
+  &__number {
+  }
+}
