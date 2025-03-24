@@ -12,7 +12,7 @@ import star from '../../images/star.svg';
 export function Reviews() {
   return (
     <div className='reviews'>
-      <p className='bloc__title'>Мероприятия</p>
+      <p className='top__text'>Отзывы и истории</p>
       <div class='container'>
         <div class='reviews__inner'>
           <Swiper
@@ -30,7 +30,7 @@ export function Reviews() {
             // }}
             // speed={1000}
             breakpoints={{
-              1050: {
+              700: {
                 slidesPerView: 3,
               },
               10: {
@@ -85,10 +85,10 @@ export function Reviews() {
             <SwiperSlide>
               <div class='reviews__item'>
                 <div class='reviews__link'>
-                  <p class='discount__title'>Имя</p>
+                  <p class='discount__title item__title'>Имя</p>
                   <img class='reviews__img' src={star} alt='' />
                 </div>
-                <p class='discount__text'>
+                <p class='discount__text item__text'>
                   Комменарий Комменарий Комменарий Комменарий Комменарий Комменарий Комменарий
                   Комменарий Комменарий Комменарий Комменарий Комменарий Комменарий Комменарий
                   Комменарий Комменарий Комменарий Комменарий Комменарий Комменарий{' '}
@@ -98,10 +98,10 @@ export function Reviews() {
             <SwiperSlide>
               <div class='reviews__item'>
                 <div class='reviews__link'>
-                  <p class='discount__title'>Имя</p>
+                  <p class='discount__title item__title'>Имя</p>
                   <img class='reviews__img' src={star} alt='' />
                 </div>
-                <p class='discount__text'>
+                <p class='discount__text item__text'>
                   Комменарий Комменарий Комменарий Комменарий Комменарий Комменарий Комменарий
                   Комменарий Комменарий Комменарий Комменарий Комменарий Комменарий Комменарий
                   Комменарий Комменарий Комменарий Комменарий Комменарий Комменарий{' '}
@@ -111,10 +111,10 @@ export function Reviews() {
             <SwiperSlide>
               <div class='reviews__item'>
                 <div class='reviews__link'>
-                  <p class='discount__title'>Имя</p>
+                  <p class='discount__title item__title'>Имя</p>
                   <img class='reviews__img' src={star} alt='' />
                 </div>
-                <p class='discount__text'>
+                <p class='discount__text item__text'>
                   Комменарий Комменарий Комменарий Комменарий Комменарий Комменарий Комменарий
                   Комменарий Комменарий Комменарий Комменарий Комменарий Комменарий Комменарий
                   Комменарий Комменарий Комменарий Комменарий Комменарий Комменарий{' '}
@@ -124,10 +124,10 @@ export function Reviews() {
             <SwiperSlide>
               <div class='reviews__item'>
                 <div class='reviews__link'>
-                  <p class='discount__title'>Имя</p>
+                  <p class='discount__title item__title'>Имя</p>
                   <img class='reviews__img' src={star} alt='' />
                 </div>
-                <p class='discount__text'>
+                <p class='discount__text item__text'>
                   Комменарий Комменарий Комменарий Комменарий Комменарий Комменарий Комменарий
                   Комменарий Комменарий Комменарий Комменарий Комменарий Комменарий Комменарий
                   Комменарий Комменарий Комменарий Комменарий Комменарий Комменарий{' '}

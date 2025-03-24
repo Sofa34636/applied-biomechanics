@@ -4,7 +4,7 @@
 $title: #363838;
 $default: #5a5a5a;
 
-%header-text {
+%title {
   // переменная
   font-family: 'comfortaa', sans-serif;
 
@@ -13,7 +13,7 @@ $default: #5a5a5a;
   color: #fff;
 }
 
-%top-text {
+%text {
   font-family: 'comfortaa', sans-serif;
 
   font-weight: 400;
@@ -21,7 +21,7 @@ $default: #5a5a5a;
   color: #fff;
 }
 
-%subtext-text {
+%subtext {
   font-family: 'comfortaa', sans-serif;
 
   font-weight: 300;
@@ -32,30 +32,5 @@ $default: #5a5a5a;
 %top-title {
   font-family: var(--font-great-vibes), sans-serif;
   font-weight: 400;
-  font-size: 250px;
-  color: #fff;
-}
-
-%button-text {
-  font-family: 'Montserrat Alternates', sans-serif;
-
-  font-weight: 500;
-
-  color: #ffffff;
-}
-
-%section-text {
-  font-family: 'Montserrat Alternates', sans-serif;
-
-  font-weight: 400;
-
-  color: #fff;
-}
-
-%section-subsection {
-  font-family: 'Montserrat Alternates', sans-serif;
-
-  font-weight: 300;
-
   color: #fff;
 }

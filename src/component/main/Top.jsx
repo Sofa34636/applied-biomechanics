@@ -7,7 +7,7 @@ export function Top() {
         <div className='top__inner'>
           <div className='top__box'>
             <p className='top__title'>Возраждение</p>
-            <p className='top__text'>
+            <p className='bloc__header-text'>
               Трогательный массаж <p>ДУШИ через тело</p>
             </p>
           </div>

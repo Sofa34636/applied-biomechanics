@@ -4,12 +4,17 @@ import { PriceList } from './PriceList';
 import { TechniquesSession } from './TechniquesSession';
 import { Get } from './Get';
 import { WorkingMethods } from './WorkingMethods';
+import { Request } from './Request';
 
 export function Services() {
   return (
     <div className='services'>
-      <div className='container'>
-        <p className='bloc__title'>Услуги</p>
+      <div className='container-fluid'>
+        <div class='services__inner-bg'>
+          <p className='top__text services__text-bg'>Услуги</p>
+        </div>
+      </div>
+      <div className='container services__container-bloc'>
         <p className='bloc__text'>Психологический запрос</p>
         <p className='bloc__subtext'>
           Психологический запрос — это выражение внутренней потребности в изменениях, возникающее
@@ -25,31 +30,17 @@ export function Services() {
           Важно определить точку входа для работы с внутренними конфликтами, мешающими развитию.
         </p>
       </div>
-      <div className='container'>
-        <div className='services__inner'>
-          <div className='services__item services__item-1'>
-            <p className='services__petal'>Эмоциональные состояния</p>
-            <p className='services__petal'>Физическая боль</p>
-          </div>
-          <div className='services__item services__item-2'>
-            <p className='services__petal'>Жизненные ситуации</p>
-            <img src={flower_requests} alt='' />
-          </div>
-          <div className='services__item services__item-3'>
-            <p className='services__petal'>Психосоматические проявления</p>
-            <p className='services__petal'>Запросы на улучшение состояния</p>
-          </div>
-        </div>
-      </div>
+      <Request />
       <div className='duote container-fluid'>
         <p className='bloc__duote'>
-          Важно определить точку входа для работы с внутренними конфликтами, мешающими развитию.
+          Возможность В определении точки входа для работы с внутренними конфликтами, мешающими
+          развитию.
         </p>
       </div>
       <PriceList />
       <TechniquesSession />
-      <Get />
-      <WorkingMethods />
+      {/* <Get />
+      <WorkingMethods /> */}
     </div>
   );
 }

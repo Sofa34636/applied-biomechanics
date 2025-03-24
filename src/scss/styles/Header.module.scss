@@ -1,23 +1,89 @@
 @import '../vars';
 .header {
+  &__menu_bloc {
+    position: relative;
+    @media (max-width: 950px) {
+      font-size: 20px;
+    }
+  }
   &__inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    @extend %header-text;
+
     margin-top: 22px;
-    font-size: 16px;
+    margin-bottom: 15px;
+    @media (max-width: 950px) {
+      flex-direction: column;
+      gap: 30px;
+      position: fixed;
+      margin: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      width: 100%;
+      height: 60vh;
+
+      z-index: 10;
+      transition: all 1s;
+      left: -100%;
+      background-color: #3c491a;
+    }
   }
   &__img {
   }
+  &__img_btn {
+    display: none;
+  }
+  &__active {
+    @media (max-width: 950px) {
+      left: 0; // Сдвигается в видимую область
+    }
+  }
+  &__contact {
+    display: none;
+    @media (max-width: 950px) {
+      display: block;
+    }
+  }
 }
+
 .menu {
   display: flex;
   gap: 30px;
+  @media (max-width: 950px) {
+    flex-direction: column;
+    align-items: center;
+  }
   &__item {
   }
   &__link {
   }
   &__number {
+  }
+  &__btn {
+    display: none;
+    @media (max-width: 950px) {
+      display: block;
+      position: fixed;
+      right: 10px;
+      top: 15px;
+      cursor: pointer;
+      z-index: 1000;
+      padding: 15px;
+      color: #000000;
+      background-color: #acbd6f; // Чёрный круг
+      border-radius: 50%; // Делаем круг
+      width: 60px; // Фиксированная ширина круга
+      height: 60px; // Фиксированная высота круга
+    }
+    @media (max-width: 550px) {
+      top: 10px;
+      padding: 10px;
+      width: 50px; // Фиксированная ширина круга
+      height: 50px; // Фиксированная высота круга
+    }
   }
 }

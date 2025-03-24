@@ -4,25 +4,36 @@ import React from 'react';
 
 export function About() {
   return (
-    <div className='about'>
-      <div className='container'>
-        <p className='bloc__title'>Обо мне</p>
-        <div className='about__inner'>
-          <div className='about__bloc'>
-            <p className='about__name'>Я — Оксана Рыбалкина,</p>
-            <p className='about__text-item'>
-              Специалист по работе с телом и массажист с глубокими знаниями его возможностей.
-            </p>
-            <p className='about__text'>
-              Я изучала связь между телом и психикой в Московской школе нейрорелаксации, что
-              позволило мне развить подход, сочетающий массаж и биомеханику.{' '}
-            </p>
-            <p className='about__text-item'>
-              Мой подход сочетает массаж и биомеханику, позволяя клиентам осознать активные и
-              неактивные мышцы.{' '}
-            </p>
+    <div>
+      <div className='about'>
+        <div className='container'>
+          <p className='top__text'>Обо мне</p>
+          <div className='about__inner '>
+            <div className='about__bloc'>
+              <p className='about__name item__title'>
+                Я — специалист по работе с телом, обладающий глубокими знаниями его возможностей.{' '}
+              </p>
+              <div class='item__text'>
+                <p className='about__text-item'>
+                  Изучала массажные техники в Московском институте нейрорелаксации "Мир",
+                  телесноориентированную психологию при академии Невельского.{' '}
+                </p>
+                <p className='about__text'>
+                  Я изучала связь между телом и психикой в Московской школе нейрорелаксации, что
+                  позволило мне развить подход, сочетающий массаж и биомеханику.{' '}
+                </p>
+                <p className='about__text-item'>
+                  Основы прикладной биомеханики тела по методу Сергея Биленко.
+                </p>
+                <p className='about__text'>
+                  Использую бодинамику по теории Лизбет Марчер, что позволяет проводить сессии для
+                  тех, кто стремится улучшить своё психоэмоциональное состояние и обрести опору в
+                  социальной жизни.{' '}
+                </p>
+              </div>
+            </div>
+            <img className='about__img' src={about_img} alt='' />
           </div>
-          <img src={about_img} alt='' />
         </div>
       </div>
       <div className='duote container-fluid'>
