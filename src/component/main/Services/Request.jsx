@@ -1,20 +1,14 @@
 import React from 'react';
-import flower_get from '../../../images/flower-get.svg';
-import flower_requests from '../../../images/flower-requests.svg';
+import flower_get from '../../../images/flower-get.png';
+import flower_requests from '../../../images/flower-requests.png';
+import img1 from '../../../images/StokImg/1.png';
+import img2 from '../../../images/StokImg/2.png';
+import img4 from '../../../images/StokImg/4.png';
 
 export function Request() {
   return (
     <div class='request'>
       <div className='container'>
-        <p className='top__text '>Приветствую тебя, гость моего сайта.</p>
-        <p className='bloc__text'>
-          <p class=''>Ты здесь, потому что ищешь ответы на свои вопросы.</p>
-          <p class=''>Что с моим телом?</p>
-          <p class=''>Как долго я буду находиться в депрессии?</p>
-          <p class=''>Что мешает мне двигаться в жизни, строить карьеру, отношения?</p>
-          <p class=''>Нарушение сна, тревожность.</p>
-          <p class=''>Давай знакомиться</p>
-        </p>
         <div className='services__inner services__adaptiv item__title'>
           <div className='services__item services__item-1'>
             <p className='services__petal'>Эмоциональные состояния</p>
@@ -70,6 +64,11 @@ export function Request() {
                   </p> */}
             </div>
           </div>
+        </div>
+        <div class='services__img'>
+          <img src={img1} alt='' />
+          <img src={img2} alt='' />
+          <img src={img4} alt='' />
         </div>
       </div>
     </div>

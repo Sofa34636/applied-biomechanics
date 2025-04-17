@@ -1,5 +1,5 @@
 import React from 'react';
-import therapy_img from '../../../images/therapy-img.svg';
+import therapy_img from '../../../images/therapy-img.png';
 
 export function Therapy() {
   return (

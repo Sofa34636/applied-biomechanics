@@ -1,10 +1,11 @@
 import React from 'react';
-import flower_requests from '../../../images/flower-requests.svg';
+import flower_requests from '../../../images/flower-requests.png';
 import { PriceList } from './PriceList';
 import { TechniquesSession } from './TechniquesSession';
 import { Get } from './Get';
 import { WorkingMethods } from './WorkingMethods';
 import { Request } from './Request';
+import { Bars } from './Bars';
 
 export function Services() {
   return (
@@ -30,6 +31,7 @@ export function Services() {
           Важно определить точку входа для работы с внутренними конфликтами, мешающими развитию.
         </p>
       </div>
+
       <Request />
       <div className='duote container-fluid'>
         <p className='bloc__duote'>
@@ -38,9 +40,8 @@ export function Services() {
         </p>
       </div>
       <PriceList />
+      <Bars />
       <TechniquesSession />
-      {/* <Get />
-      <WorkingMethods /> */}
     </div>
   );
 }

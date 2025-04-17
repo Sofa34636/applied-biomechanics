@@ -9,10 +9,12 @@ import { PriceList } from '../main/Services/PriceList';
 import { TechniquesSession } from '../main/Services/TechniquesSession';
 import { Get } from '../main/Services/Get';
 import { Request } from '../main/Services/Request';
+import { Greeting } from '../main/Greeting';
 export function Main() {
   return (
     <main className='main'>
       <Top />
+      <Greeting />
       <Request />
       <About />
       <PriceList />

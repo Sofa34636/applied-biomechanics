@@ -1,5 +1,5 @@
 import React from 'react';
-import flower_techniques from '../../../images/flower-techniques.svg';
+import flower_techniques from '../../../images/flower-techniques.png';
 
 export function TechniquesSession() {
   return (

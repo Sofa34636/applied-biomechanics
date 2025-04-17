@@ -1,5 +1,6 @@
 import React from 'react';
-import flower_getWhite from '../../../images/flower_getWhite.svg';
+import flower_getWhite from '../../../images/flower_getWhite.png';
+import img5 from '../../../images/StokImg/5.png';
 
 export function GetWhite() {
   return (
@@ -64,6 +65,7 @@ export function GetWhite() {
             </div>
           </div>
         </div>
+        <img className='get__img' src={img5} alt='' />
       </div>
     </div>
   );

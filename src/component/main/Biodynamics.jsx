@@ -1,5 +1,5 @@
-import biodynamic_img from '../../images/biodynamics-img.svg';
-import biodynamic_img2 from '../../images/biodynamics-img2.svg';
+import biodynamic_img from '../../images/biodynamics-img.png';
+import biodynamic_img2 from '../../images/biodynamics-img2.png';
 
 import React from 'react';
 export function Biodynamics() {

@@ -2,7 +2,7 @@
 .header {
   &__menu_bloc {
     position: relative;
-    @media (max-width: 950px) {
+    @media (max-width: 990px) {
       font-size: 20px;
     }
   }
@@ -13,13 +13,13 @@
 
     margin-top: 22px;
     margin-bottom: 15px;
-    @media (max-width: 950px) {
+    @media (max-width: 990px) {
       flex-direction: column;
       gap: 30px;
       position: fixed;
       margin: 0;
       right: 0;
-      top: 0;
+      top: -5px;
       bottom: 0;
       padding-top: 20px;
       padding-bottom: 20px;
@@ -31,6 +31,9 @@
       left: -100%;
       background-color: #3c491a;
     }
+    @media (max-height: 730px) {
+      height: 70vh;
+    }
   }
   &__img {
   }
@@ -38,13 +41,13 @@
     display: none;
   }
   &__active {
-    @media (max-width: 950px) {
+    @media (max-width: 990px) {
       left: 0; // Сдвигается в видимую область
     }
   }
   &__contact {
     display: none;
-    @media (max-width: 950px) {
+    @media (max-width: 990px) {
       display: block;
     }
   }
@@ -53,7 +56,7 @@
 .menu {
   display: flex;
   gap: 30px;
-  @media (max-width: 950px) {
+  @media (max-width: 990px) {
     flex-direction: column;
     align-items: center;
   }
@@ -65,7 +68,7 @@
   }
   &__btn {
     display: none;
-    @media (max-width: 950px) {
+    @media (max-width: 990px) {
       display: block;
       position: fixed;
       right: 10px;

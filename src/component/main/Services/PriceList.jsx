@@ -1,6 +1,7 @@
 import React from 'react';
-import priceList_img from '../../../images/priceList-img.svg';
-import priceList_img2 from '../../../images/priceList-img(2).svg';
+import priceList_img from '../../../images/priceList-img.png';
+import priceList_img2 from '../../../images/priceList-img(2).png';
+import { Link } from 'react-router-dom';
 
 export function PriceList() {
   return (
@@ -21,22 +22,28 @@ export function PriceList() {
                 режиме, чтобы вы вновь ощутили радость и полноту жизни.
               </p>
             </div>
-            <p className='priceList__subtext item__subtext'>
-              количество сеансов для проработки 3-5
-            </p>
+            <div class='priceList__text item__title '>Формат консультаций:</div>
+            <div class='priceList__money-item'>
+              <p className='priceList__money item__price'>очно 5000 ₽</p>
+              <p className='priceList__money item__price'>онлайн 2500 ₽</p>
+            </div>
             <div class='priceList__item'>
-              <p className='priceList__money item__price'> 5000 ₽</p>
+              <p className='priceList__subtext item__subtext'>
+                количество сеансов для проработки 3-5
+              </p>
               <div className='priceList__button item__text'>
-                <button className='priceList__button-item priceList__button-green'>
+                {/* <button className='priceList__button-item priceList__button-green'>
                   Подробнее
-                </button>
-                <button className='priceList__button-item priceList__button-white'>Купить</button>
+                </button> */}
+                <Link to='https://t.me/Oksi_R19' target='_blank' rel='noopener noreferrer'>
+                  <button className='priceList__button-item priceList__button-white'>Купить</button>
+                </Link>
               </div>
             </div>
           </div>
           <div className='priceList__images'>
-            <img className='priceList__img' src={priceList_img} alt='' />
             <img className='priceList__img' src={priceList_img2} alt='' />
+            <img className='priceList__img' src={priceList_img} alt='' />
           </div>
         </div>
       </div>

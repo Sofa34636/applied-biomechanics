@@ -6,7 +6,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import 'swiper/css/autoplay';
-import discount_img from '../../images/discount-img.svg';
+import discount_img from '../../images/discount-img.png';
 
 export function Discount() {
   return (

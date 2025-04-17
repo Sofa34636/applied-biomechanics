@@ -1,11 +1,11 @@
 import React from 'react';
-import img1 from '../../images/Gallery/1.svg';
-import img2 from '../../images/Gallery/2.svg';
-import img3 from '../../images/Gallery/3.svg';
-import img4 from '../../images/Gallery/4.svg';
-import img5 from '../../images/Gallery/5.svg';
-import img6 from '../../images/Gallery/6.svg';
-import img7 from '../../images/Gallery/7.svg';
+import img1 from '../../images/Gallery/1.png';
+import img2 from '../../images/Gallery/2.png';
+import img3 from '../../images/Gallery/3.png';
+import img4 from '../../images/Gallery/4.png';
+import img5 from '../../images/Gallery/5.png';
+import img6 from '../../images/Gallery/6.png';
+import img7 from '../../images/Gallery/7.png';
 
 export function Gallery() {
   return (

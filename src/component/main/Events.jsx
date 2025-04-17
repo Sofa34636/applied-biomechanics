@@ -6,7 +6,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import 'swiper/css/autoplay';
-import discount_img from '../../images/discount-img.svg';
+import discount_img from '../../images/discount-img.png';
 
 export function Events() {
   return (
@@ -39,12 +39,9 @@ export function Events() {
           <SwiperSlide>
             <div class='discount__bloc-events discount__bloc-white'>
               <div class='discount__item'>
-                <p class='discount__title item__title'>Мероприятие 2</p>
+                <p class='discount__title item__title'>Мероприятие</p>
                 <div class='item__text'>
-                  <p class='discount__text'>
-                    Описание мероприятия Описание мероприятия Описание мероприятия Описание
-                    мероприятия Описание мероприятия Описание мероприятия
-                  </p>
+                  <p class='discount__text'>Появится позже</p>
                   <div class='discount__link'>
                     <p class='discount__time'>00.00.00</p>
                     <p class='discount__time'>00:00:00 </p>
@@ -57,48 +54,9 @@ export function Events() {
           <SwiperSlide>
             <div class='discount__bloc-events discount__bloc-white '>
               <div class='discount__item'>
-                <p class='discount__title item__title'>Мероприятие 2</p>
+                <p class='discount__title item__title'>Мероприятие</p>
                 <div class='item__text'>
-                  <p class='discount__text'>
-                    Описание мероприятия Описание мероприятия Описание мероприятия Описание
-                    мероприятия Описание мероприятия Описание мероприятия
-                  </p>
-                  <div class='discount__link'>
-                    <p class='discount__time'>00.00.00</p>
-                    <p class='discount__time'>00:00:00 </p>
-                  </div>
-                </div>
-              </div>
-              {/* <img src={discount_img} alt='' /> */}
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div class='discount__bloc-events discount__bloc-white'>
-              <div class='discount__item'>
-                <p class='discount__title item__title'>Мероприятие 2</p>
-                <div class='item__text'>
-                  <p class='discount__text'>
-                    Описание мероприятия Описание мероприятия Описание мероприятия Описание
-                    мероприятия Описание мероприятия Описание мероприятия
-                  </p>
-                  <div class='discount__link'>
-                    <p class='discount__time'>00.00.00</p>
-                    <p class='discount__time'>00:00:00 </p>
-                  </div>
-                </div>
-              </div>
-              {/* <img src={discount_img} alt='' /> */}
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div class='discount__bloc-events discount__bloc-white'>
-              <div class='discount__item'>
-                <p class='discount__title item__title'>Мероприятие 2</p>
-                <div class='item__text'>
-                  <p class='discount__text'>
-                    Описание мероприятия Описание мероприятия Описание мероприятия Описание
-                    мероприятия Описание мероприятия Описание мероприятия
-                  </p>
+                  <p class='discount__text'>Появится позже</p>
                   <div class='discount__link'>
                     <p class='discount__time'>00.00.00</p>
                     <p class='discount__time'>00:00:00 </p>

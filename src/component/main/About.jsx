@@ -1,4 +1,4 @@
-import about_img from '../../images/about-img.svg';
+import about_img from '../../images/about-img.png';
 
 import React from 'react';
 

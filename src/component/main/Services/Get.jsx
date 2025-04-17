@@ -1,5 +1,5 @@
 import React from 'react';
-import flower_get from '../../../images/flower-get.svg';
+import flower_get from '../../../images/flower-get.png';
 
 export function Get() {
   return (
